@@ -23,7 +23,7 @@ document.querySelector("#content-load").innerHTML = `
       <h4 class="font-color">Output Character</h4>
     </div>
     <div class="radius-all">
-      <textarea name="Output Character" class="card-textarea font-color font-acme" id="outputUC"></textarea>
+      <textarea name="Output Character" placeholder="Input text or unicode (dj)" class="card-textarea font-color font-acme" id="outputUC"></textarea>
     </div>
     <br><button class="card-btn font-color" id="copyUC">Copy</button>
   </div>
@@ -34,7 +34,7 @@ document.querySelector("#content-load").innerHTML = `
       <h4 class="font-color">Output Unicode</h4>
     </div>
     <div class="radius-all">
-      <textarea name="Output Unicode" class="card-textarea font-color font-acme" id="outputCU"></textarea>
+      <textarea name="Output Unicode" placeholder="\\u0049\\u006E\\u0070\\u0075\\u0074\\u0020\\u0074\\u0065\\u0078\\u0074\\u0020\\u006F\\u0072\\u0020\\u0075\\u006E\\u0069\\u0063\\u006F\\u0064\\u0065\\u0020\\u0028\\u0064\\u006A\\u0029" class="card-textarea font-color font-acme" id="outputCU"></textarea>
     </div>
     <br><button class="card-btn font-color" id="copyCU">Copy</button>
   </div>
