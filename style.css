@@ -1,0 +1,10 @@
+
+.card-textarea {
+  resize: vertical;
+  cursor: text;
+  height: 10rem;
+  width: 100%;
+  font-size: .7rem;
+  letter-spacing: 4px;
+  background-color: #3c3c49;
+}
