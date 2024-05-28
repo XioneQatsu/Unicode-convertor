@@ -13,7 +13,7 @@ document.querySelector("#content-load").innerHTML = `
       <h4 class="font-color">Input Character</h4>
     </div>
     <div class="card-input radius-all">
-      <textarea name="Input Character" class="card-textarea font-color font-acme" id="inputC"></textarea>
+      <textarea name="Input Character" placeholder="Input text or unicode (\\u0064\\u006a)" class="card-textarea font-color font-acme" id="inputC"></textarea>
     </div>
   </div>
 </div>
